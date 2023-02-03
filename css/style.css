@@ -93,3 +93,11 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 60px !important;
+  }
+  img.homepage {
+    display: none;
+  }
+}
